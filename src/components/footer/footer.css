@@ -1,0 +1,20 @@
+.footer {
+    padding: 25px 1px;
+    border-top: 1px solid rgb(216, 215, 215);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left p  {
+    font-size: 14px;
+    color: #7c716c;
+}
+
+.footer-right p {
+    font-size: 14px ;
+    color: #7c716c;
+    letter-spacing: 2px;
+}

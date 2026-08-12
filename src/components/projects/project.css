@@ -1,0 +1,122 @@
+.project {
+    background-color: #f8f7f2;
+
+}
+
+.project-content {
+    padding-top: 150px;
+}
+
+.title-p {
+    letter-spacing: 2px;
+    color: #5c3bfe;
+
+    font-weight: 500;
+    font-family: roboto;
+}
+
+.project-title h1 {
+    font-size: 45px;
+    line-height: 50px;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    font-weight: 900;
+}
+
+.title-p2 {
+    width: 570px;
+    line-height: 24px;
+    color: #78716c;
+}
+
+.project-title {
+    padding-bottom: 60px;
+}
+
+.project-box-top img {
+    width: 300px;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.parent-project {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-bottom: 100px;
+    gap: 20px;
+}
+
+.project-box {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.project-box {
+    width: 300px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.project-box-bottom {
+    padding: 20px;
+
+}
+
+.project-box-bottom h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 40px;
+    height: 20px;
+}
+
+.project-box-bottom p {
+    color: #78716c;
+    line-height: 24px;
+    padding-bottom: 15px;
+    height: 100px;
+    font-size: 14px;
+}
+
+.button-89 {
+    cursor: pointer;
+    --b: 3px;
+    /* border thickness */
+    --s: .45em;
+    /* size of the corner */
+    --color: #373B44;
+
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+        conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+
+    border: 0;
+
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 40px;
+}
+
+.button-89:hover,
+.button-89:focus-visible {
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+}
+
+.button-89:active {
+    background: var(--color);
+    color: #fff;
+}
+
+.button-89 a {
+    color: #373B44;
+}

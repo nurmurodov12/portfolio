@@ -1,0 +1,237 @@
+.home {
+    padding-top: 160px;
+    background-color: #f8f7f2;
+}
+
+.hero-left h1 {
+    font-size: 55px;
+    line-height: 70px;
+    padding-bottom: 30px;
+    font-weight: 900;
+}
+
+.hero {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.hero-left h1 span {
+    color: #5c3bfe;
+}
+
+.hero-left p {
+    width: 400px;
+    line-height: 28px;
+    color: #787582;
+    font-size: 18px;
+}
+
+.header-btns {
+    padding-top: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+
+.first-btn {
+    padding: 14px 25px;
+    color: white;
+    border: none;
+    background-color: #6b4dfd;
+    border-radius: 14px;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: .1s ease-in-out;
+
+}
+
+.first-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.second-btn {
+
+    padding: 14px 25px;
+    color: black;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+    background-color: white;
+    font-weight: 500;
+    font-size: 14px;
+    transition: .1s ease-in-out;
+    border: 2px solid rgb(169, 166, 166);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.second-btn:hover {
+    border: #5c3bfe solid 2px;
+    color: #6b4dfd;
+}
+
+.link-none {
+    text-decoration: none;
+    color: black;
+}
+
+.cart {
+    width: 160px;
+    height: 90px;
+    border: 1px solid #9f91e9;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #e8e4f2;
+    padding-left: 15px;
+}
+
+.cart-2 {
+    background-color: #f9e7dd;
+    border: #f4b38f 1px solid;
+
+}
+
+.cart-2 h2 {
+    color: #ff5c2b;
+    font-size: 25px;
+}
+
+.text-1 {
+    color: #5c3bfe;
+    font-size: 25px;
+}
+
+.text-3 {
+    color: #009966;
+}
+
+.cart p {
+    font-size: 14px;
+}
+
+.cart-3 {
+    background-color: #ecfdf5;
+    border: #0df1a5 1px solid;
+}
+
+
+.experence {
+    padding-top: 33px;
+    display: flex;
+    gap: 15px;
+}
+
+.user {
+    width: 320px;
+    border-radius: 17px;
+    padding-right: 10px;
+    padding: 20px;
+    height: auto;
+    background: white;
+
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.user-top img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+    left: 5%;
+}
+
+.user-bottom h2 {
+    font-size: 16px;
+    padding-top: 15px;
+    font-weight: 600;
+    color: #1c1917;
+    padding-bottom: 10px;
+}
+
+.user-bottom p {
+    font-size: 14px;
+    color: gray;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+}
+
+.skills {
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.skill {
+    padding: 7px 18px;
+
+    background-color: #f0efea;
+    border-radius: 15px;
+
+}
+
+.skill p {
+    color: #787791;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.talents {
+    padding-top: 50px;
+}
+
+.talent {
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    padding: 20px;
+    border: 1px solid rgb(210, 206, 206);
+    border-radius: 15px;
+    background-color: white;
+}
+
+.icon {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    color: #5c3bfe;
+    margin-bottom: 15px;
+    height: 40px;
+    background-color: #d6cbf2;
+}
+
+.talent-p1 {
+    font-size: 14px;
+    font-family: inter;
+    color: black;
+}
+
+.talent-p2 {
+    padding-top: 7px;
+    color: #787791;
+    font-family: inter;
+    font-size: 13px;
+}
+
+.none {
+    text-decoration: none;
+}
+
+.talents {
+    display: grid;
+    grid-template-columns: auto auto auto 
+    auto;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 60px;
+}
