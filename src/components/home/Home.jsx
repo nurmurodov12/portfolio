@@ -23,7 +23,9 @@ const Home = () => {
               </p>
 
               <div className="header-btns">
-                <button className="first-btn">View My Work</button>
+                <Link to={"/projects"}>
+                  <button className="first-btn">View My Work</button>
+                </Link>
                 <button className="second-btn">
                   <Link className="link-none">Get in Touch</Link>
                 </button>
@@ -79,7 +81,7 @@ const Home = () => {
           </div>
 
           <div className="talents">
-            <Link className="none">
+            <Link className="none" to={"/about"}>
               <div className="talent">
                 <div className="icon">
                   <i class="fa-solid fa-book"></i>
@@ -89,18 +91,17 @@ const Home = () => {
               </div>
             </Link>
 
-               <Link className="none">
+            <Link className="none">
               <div className="talent">
                 <div className="icon">
-                 <i class="fa-solid fa-terminal"></i>
+                  <i class="fa-solid fa-terminal"></i>
                 </div>
                 <p className="talent-p1">Tech Stack</p>
                 <p className="talent-p2">Tools & languages </p>
               </div>
             </Link>
 
-
-               <Link className="none">
+            <Link className="none" to={'/projects'}>
               <div className="talent">
                 <div className="icon">
                   <i class="fa-solid fa-code"></i>
@@ -110,10 +111,10 @@ const Home = () => {
               </div>
             </Link>
 
-               <Link className="none">
+            <Link className="none">
               <div className="talent">
                 <div className="icon">
-                 <i class="fa-solid fa-envelope"></i>
+                  <i class="fa-solid fa-envelope"></i>
                 </div>
                 <p className="talent-p1">Contact</p>
                 <p className="talent-p2">Let's collobrate</p>
