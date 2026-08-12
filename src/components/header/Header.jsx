@@ -43,7 +43,7 @@ const Header = () => {
                 >
                   Projects
                 </Link>
-              </li>``
+              </li>
 
               <button className="header-btn">Hire Me</button>
             </ul>
